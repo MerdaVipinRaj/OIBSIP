@@ -18,10 +18,3 @@ npm start
 ```
 
 Then open `http://localhost:3000`.
-
-## Notes
-
-- If `MONGO_URI` is not set, the app falls back to in-memory data.
-- Default demo accounts are documented in `config/.env.example`.
-- Upload only this `pizzadelivery/` folder to GitHub.
-- `node_modules/` is excluded, so the folder stays small and deployment-friendly.
