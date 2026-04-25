@@ -1,0 +1,20 @@
+{
+  "name": "pizzadelivery",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A clean GitHub-ready Pizza Delivery app bundle.",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "node server/server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.11.0",
+    "nodemailer": "^6.10.0",
+    "razorpay": "^2.9.6"
+  }
+}
