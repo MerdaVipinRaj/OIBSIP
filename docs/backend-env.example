@@ -1,0 +1,31 @@
+# Server configuration
+NODE_ENV=development
+PORT=5000
+
+# Database
+MONGO_URI=mongodb://127.0.0.1:27017/pizza_palette
+MONGO_CONNECT_MAX_RETRIES=10
+MONGO_CONNECT_RETRY_DELAY_MS=3000
+MONGO_USE_MEMORY=true
+
+# Authentication
+JWT_SECRET=replace_with_a_secure_secret
+SALT=10
+
+# SMTP email
+SMTP_HOST=smtp.gmail.com
+SMTP_PORT=465
+SMTP_SECURE=true
+SMTP_USER=your-email@example.com
+SMTP_PASS=your-app-password
+EMAIL_FROM_NAME=Pizza Palette
+EMAIL_FROM_ADDRESS=your-email@example.com
+SUPERADMIN_EMAIL=admin@example.com
+SMTP_VERIFY_CONNECTION=true
+SMTP_USE_ETHEREAL=false
+
+# Razorpay
+RAZORPAY_KEY_ID=rzp_test_replace_me
+RAZORPAY_KEY_SECRET=replace_with_your_razorpay_secret
+RAZORPAY_CURRENCY=INR
+RAZORPAY_USE_DUMMY=false
