@@ -1659,8 +1659,8 @@ initializeStore()
       });
     }, 1000 * 60 * 5).unref();
 
-    app.listen(PORT, () => {
-      console.log(`${APP_NAME} running on http://localhost:${PORT}`);
+    app.listen(PORT, '0.0.0.0', () => {
+      console.log(`${APP_NAME} running on port ${PORT}`);
     });
   })
   .catch((error) => {
